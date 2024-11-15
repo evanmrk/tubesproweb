@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Rowdies:wght@300;400;700&display=swap');
+@font-face {
+    font-family: 'BauhausStd';
+    src: url('BauhausStd-Medium.woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Merriweather:wght@400;700&family=Poppins:wght@300;400;500;600;700;800&family=Rowdies:wght@300;400;700&display=swap');
+@import url('Poppins-Regular.ttf');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+}
+
+header{
+    padding: 10px;
+    padding-left: 10px;
+    background-color: rgb(255, 255, 255);
+    background: #0f403f;
+    padding: 1px 20%;
+    border-bottom: 1px solid black; /* Sebagai garis pembatas navbar */
+}
+
+.logo1{
+    font-family: "BauhausStd", sans-serif;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffd700;
+}
+
+.logo1 span{
+    color: #a11826;
+}
+
+nav ul{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 20%;
+    align-items: center;
+}
+
+nav li{
+    display: auto;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+nav a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+nav img{
+    width: 40px;
+    height: 40px;
+}
+
+

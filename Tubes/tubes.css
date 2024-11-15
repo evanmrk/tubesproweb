@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Rowdies:wght@300;400;700&display=swap');
+@font-face {
+    font-family: 'BauhausStd';
+    src: url('BauhausStd-Medium/BauhausStd-Medium.woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Merriweather:wght@400;700&family=Poppins:wght@300;400;500;600;700;800&family=Rowdies:wght@300;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    background-color: rgb(244, 244, 244);
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    background: transparent;
+    align-items: center;
+    padding: 12px 10%;
+    border-bottom: 1px solid black; /* Sebagai garis pembatas navbar */
+}
+
+.logo1{
+    margin-left: 1px;
+    text-decoration: none;
+    list-style: none;
+    background: transparent;
+    size: auto;
+    content: icon;
+    margin-left: 1px;
+    width: 150px;
+    font-family: 'BauhausStd';
+    font-size: 36px;
+    font-weight: 600;
+    font-style: normal;
+    color: #3381ba;
+    height: auto; /* Set auto for better responsiveness */
+}
+
+.logo1 span{
+    color: #ff5353;
+}
+
+
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li{
+    font-family: "Poppins", serif;
+    display: inline-block;
+    background-color: transparent;
+    padding: 0px 20px;
+    height: 50px;
+}
+
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+    transition: all 0.3s ease 0s;
+}
+
+/* nav ul li a:hover{
+    color: rgb(84, 152, 255);
+} */
+
+/* nav li :first-child{
+    margin-right: auto;
+} */
+
+/* .cta{  
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.cta a:hover{
+    color: rgb(255, 0, 0);
+} */
+
+.cta {
+    color: black;
+    font-family: "Poppins", serif;
+    text-decoration: none;
+    font-style: normal;
+
+}
+
+
+.regis{
+    font-family: "Poppins", serif;
+    border-color: rgb(6, 91, 117);
+    border-style: solid;
+    border-width: 1.6px;
+    border-radius: 7px;
+    height: 30px;
+    width: 70px; 
+    text-decoration: none;
+    font-style: normal;
+    list-style: none;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    list-style: none;
+    background: white;
+    background-color: rgba(255, 255, 255, 0.801);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px  rgba(0, 0, 0, 0.32);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li{
+    width: 100%;
+}
+
+.sidebar a{
+    width: 100%;
+}
+/* Responsive */
+/* @media (max-width: 768px) {
+    .nav_links {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+    }
+} */
+
+.judul1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.koleksi_foto{
+    position: relative;
+    text-align: center;
+    max-width: 300px;
+    
+    background-position: center;
+    background-size: cover;
+}
+.jakarta{
+    position: absolute;
+    top: 280px;
+    left: 16px;
+    font-family: "Merriweather", sans-serif;
+    font-weight: 800;
+    color: white;
+}
